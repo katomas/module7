@@ -1,0 +1,279 @@
+.menu {
+	display: flex;
+	justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  padding-top: 50px;
+}
+
+body {
+  background-image: url(../img/homework-3.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+  display: flex;
+	justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+ padding: 20px;
+ background-color: white;
+ vertical-align: top;
+ margin: auto;
+ margin-top: 100px;
+ width: 1110px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #263555; 
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.submenu {
+	display: none;
+	position: absolute;
+}
+
+.submenu ol li {
+   display: block;
+   color: #9096a4;
+   font-size: 18px;
+   padding: 0;
+}
+
+.submenu ol {
+   margin: 0;
+   padding: 0;
+   background-color: #ffffff;
+   border-radius: 5%;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.triangle {
+	width: 0px;
+  height: 0px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #ffffff;
+  margin-left: 17px;
+}
+
+.menu a:hover {
+	color: #263555;
+}
+
+.circle {
+	height: 150px;
+	width: 150px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	line-height: 150px;
+  text-align: center;
+  font-family: 'Dorsa', sans-serif;
+  font-size: 60px;
+  color: #263555;
+}
+
+header a {
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+iframe {
+  padding-top: 40px;
+}
+
+.contacts {
+  font-family: arial, sans-serif;
+  display: inline-block;
+  margin-right: 100px;
+  padding-top: 100px;
+  width: 194px;
+  height: 414px;
+  color: #666565;
+}
+
+.address {
+  margin-bottom: 30px;
+  margin-right: 60px;
+
+}
+
+.address2 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: #666565;
+}
+
+.email {
+  color: #FA0202;
+}
+
+.email:hover {
+  color: #CD5C5C;
+}
+
+.list:hover{ 
+  color: #0414F6;
+}
+
+td {
+  padding: 3px 10px;
+}
+
+form {
+  padding-top: 40px;
+}
+
+form div input {
+ font-family: 'Arial', sans-serif;
+ font-size: 13px;
+ margin-bottom: 17px;
+ height: 25px;
+ width: 200px;
+ background: #fcfafa;
+ border: 2px solid #d4d0d0;
+ text-indent: 10px;
+}
+
+form div textarea {
+ font-family: 'Arial', sans-serif;
+ font-size: 13px;
+ margin-bottom: 17px;
+ background: #fcfafa;
+ border: 2px solid #d4d0d0;
+ height: 180px;
+ width: 200px;
+ text-indent: 10px;
+ padding-top: 7px;
+}
+
+button {
+ height: 25px;
+ width: 60px;
+ border-radius: 15%;
+ background-color: #fbf6f8;
+ border: 1px solid #b1aaaa;
+}
+
+.to-top {
+  margin-top: 60px;
+  margin-left: 1090px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #38afe5;
+  bottom: 70px;
+  right: 570px;
+  display: block;
+}
+
+img {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.info {
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #30455b;
+	color: #ffffff;
+}
+
+.info a {
+	text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans Condensed";
+  line-height: 1.5;
+}
+
+.sprite {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.sprite-fb {
+  width: 40px;
+  height: 40px;
+  background-position: -5px -5px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  flex-basis: 50px;
+}
+
+.sprite-g {
+  width: 40px;
+  height: 40px;
+  background-position: -55px -5px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  flex-basis: 50px;
+}
+
+.sprite-in {
+  width: 40px;
+  height: 40px;
+  background-position: -5px -55px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  flex-basis: 50px;
+}
+
+.sprite-tw {
+  width: 40px;
+  height: 40px;
+  background-position: -55px -55px;
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  flex-basis: 50px;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+}
+
+footer p {
+	color: #ffffff;
+	font-family: 'Didact Gothic', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.info p {
+	color: #ffffff;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 12px;
+	margin: 0;
+  padding: 0;
+}
+
